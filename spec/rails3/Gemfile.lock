@@ -2,7 +2,6 @@ PATH
   remote: ../../
   specs:
     sorcery (0.8.1)
-      bcrypt-ruby (~> 3.0.0)
       oauth (~> 0.4.4)
       oauth2 (~> 0.8.0)
 
@@ -39,7 +38,6 @@ GEM
     addressable (2.2.7)
     archive-tar-minitar (0.5.2)
     arel (2.0.10)
-    bcrypt-ruby (3.0.1)
     builder (2.1.2)
     capybara (1.1.2)
       mime-types (>= 1.16)
@@ -150,7 +148,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt-ruby (~> 3.0.0)
   capybara (~> 1.1.1)
   launchy (~> 2.0.5)
   rails (= 3.0.3)

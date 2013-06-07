@@ -205,7 +205,6 @@ Rails.application.config.sorcery.configure do |config|
 
 
     # encryption algorithm name. See 'encryption_algorithm=' for available options.
-    # Default: `:bcrypt`
     #
     # user.encryption_algorithm =
 

@@ -55,7 +55,6 @@ Gem::Specification.new do |s|
     "lib/sorcery/controller/submodules/remember_me.rb",
     "lib/sorcery/controller/submodules/session_timeout.rb",
     "lib/sorcery/crypto_providers/aes256.rb",
-    "lib/sorcery/crypto_providers/bcrypt.rb",
     "lib/sorcery/crypto_providers/common.rb",
     "lib/sorcery/crypto_providers/md5.rb",
     "lib/sorcery/crypto_providers/sha1.rb",
@@ -313,7 +312,6 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<oauth>, ["~> 0.4.4"])
       s.add_runtime_dependency(%q<oauth2>, ["~> 0.8.0"])
-      s.add_runtime_dependency(%q<bcrypt-ruby>, ["~> 3.0.0"])
       s.add_development_dependency(%q<abstract>, [">= 1.0.0"])
       s.add_development_dependency(%q<rails>, [">= 3.0.0"])
       s.add_development_dependency(%q<json>, [">= 1.5.1"])
@@ -332,7 +330,6 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<oauth>, ["~> 0.4.4"])
       s.add_dependency(%q<oauth2>, ["~> 0.8.0"])
-      s.add_dependency(%q<bcrypt-ruby>, ["~> 3.0.0"])
       s.add_dependency(%q<abstract>, [">= 1.0.0"])
       s.add_dependency(%q<rails>, [">= 3.0.0"])
       s.add_dependency(%q<json>, [">= 1.5.1"])
@@ -352,7 +349,6 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<oauth>, ["~> 0.4.4"])
     s.add_dependency(%q<oauth2>, ["~> 0.8.0"])
-    s.add_dependency(%q<bcrypt-ruby>, ["~> 3.0.0"])
     s.add_dependency(%q<abstract>, [">= 1.0.0"])
     s.add_dependency(%q<rails>, [">= 3.0.0"])
     s.add_dependency(%q<json>, [">= 1.5.1"])
